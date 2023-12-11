@@ -1,0 +1,78 @@
+#root {
+  display: flex;
+  justify-content: center;
+ /* // align-items: center; */
+  height: 100vh;
+}
+
+.App {
+  font-family: sans-serif;
+
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  width: 300px;
+  height: 500px;
+  /* border: 1px solid black; */
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  text-align: center;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.search-bar input {
+  width: 95%;
+  height: 30px;
+  border-radius: 10px;
+  border-color: lightgray;
+}
+
+.employee-list {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.employee-list-item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid black;
+}
+.employee-list::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.headshot {
+  display: flex;
+  align-items: center;
+}
+h3 {
+  margin: 3px;
+}
+.title {
+  color: gray;
+}
+
+.name-plate {
+  margin-left: 10px;
+}
